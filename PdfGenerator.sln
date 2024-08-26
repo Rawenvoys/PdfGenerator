@@ -1,71 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.34320.172
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{FD246F4A-CA43-4A09-BA3E-0277D91E8D9E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PdfTemplate", "PdfTemplate", "{214A1D83-F6C1-4BAC-9E42-30A415A8BECE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{206872D9-3BBD-488E-BEFC-CABAAD1DD2CB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PdfGenerator", "PdfGenerator", "{1A9E7583-3617-4600-B0FE-E6A35402AEAC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".vs", ".vs", "{D9B908ED-0B6F-4141-9879-0846C6081251}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PdfGenerator", "PdfGenerator", "{8C6D2C60-27F7-4746-A793-7316F1441D55}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignTimeBuild", "DesignTimeBuild", "{7E655F64-FCFC-47B3-A1FD-E6F77CB5EA92}"
-	ProjectSection(SolutionItems) = preProject
-		.vs\PdfGenerator\DesignTimeBuild\.dtbcache = .vs\PdfGenerator\DesignTimeBuild\.dtbcache
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v15", "v15", "{1F4DA31B-EDD6-4011-B004-D9ED924D2777}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTemplate.Infrastracture", "Microservices\PdfTemplate\PdfTemplate.Infrastracture\PdfTemplate.Infrastracture.csproj", "{EB13507D-3298-476D-98F1-FDA1C9284296}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTemplate.Domain", "Microservices\PdfTemplate\PdfTemplate.Domain\PdfTemplate.Domain.csproj", "{8B749CE7-E7EB-4ADA-8FE1-DA0707116729}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTemplate.Application", "Microservices\PdfTemplate\PdfTemplate.Application\PdfTemplate.Application.csproj", "{76DD912E-91F3-433B-9F8C-195CF7091B3F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfGenerator.Api", "Apps\PdfGenerator.Api\PdfGenerator.Api.csproj", "{6DCF1E17-A7D9-487B-8099-FC7AEBE5B1F9}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB13507D-3298-476D-98F1-FDA1C9284296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB13507D-3298-476D-98F1-FDA1C9284296}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB13507D-3298-476D-98F1-FDA1C9284296}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB13507D-3298-476D-98F1-FDA1C9284296}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B749CE7-E7EB-4ADA-8FE1-DA0707116729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B749CE7-E7EB-4ADA-8FE1-DA0707116729}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B749CE7-E7EB-4ADA-8FE1-DA0707116729}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B749CE7-E7EB-4ADA-8FE1-DA0707116729}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76DD912E-91F3-433B-9F8C-195CF7091B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76DD912E-91F3-433B-9F8C-195CF7091B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76DD912E-91F3-433B-9F8C-195CF7091B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76DD912E-91F3-433B-9F8C-195CF7091B3F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DCF1E17-A7D9-487B-8099-FC7AEBE5B1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DCF1E17-A7D9-487B-8099-FC7AEBE5B1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DCF1E17-A7D9-487B-8099-FC7AEBE5B1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DCF1E17-A7D9-487B-8099-FC7AEBE5B1F9}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{214A1D83-F6C1-4BAC-9E42-30A415A8BECE} = {FD246F4A-CA43-4A09-BA3E-0277D91E8D9E}
-		{D9B908ED-0B6F-4141-9879-0846C6081251} = {1A9E7583-3617-4600-B0FE-E6A35402AEAC}
-		{8C6D2C60-27F7-4746-A793-7316F1441D55} = {D9B908ED-0B6F-4141-9879-0846C6081251}
-		{7E655F64-FCFC-47B3-A1FD-E6F77CB5EA92} = {8C6D2C60-27F7-4746-A793-7316F1441D55}
-		{1F4DA31B-EDD6-4011-B004-D9ED924D2777} = {8C6D2C60-27F7-4746-A793-7316F1441D55}
-		{EB13507D-3298-476D-98F1-FDA1C9284296} = {214A1D83-F6C1-4BAC-9E42-30A415A8BECE}
-		{8B749CE7-E7EB-4ADA-8FE1-DA0707116729} = {214A1D83-F6C1-4BAC-9E42-30A415A8BECE}
-		{76DD912E-91F3-433B-9F8C-195CF7091B3F} = {214A1D83-F6C1-4BAC-9E42-30A415A8BECE}
-		{6DCF1E17-A7D9-487B-8099-FC7AEBE5B1F9} = {206872D9-3BBD-488E-BEFC-CABAAD1DD2CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FE44E17-B8F6-4E49-B8AB-DF0DBE1CF718}
