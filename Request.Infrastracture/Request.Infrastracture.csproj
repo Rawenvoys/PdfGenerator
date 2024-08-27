@@ -8,4 +8,8 @@
     <RootNamespace>PdfGenerator.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Request.Domain\Request.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
