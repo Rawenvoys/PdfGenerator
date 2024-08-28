@@ -3,5 +3,5 @@
 namespace PdfGenerator.Request.Domain.IServices;
 public interface IRequestService
 {
-    public Task<Guid> Save(string templateName, string xmlData);
+    public Task<Guid> SaveAsync(string templateName, string json);
 }

@@ -1,5 +1,5 @@
 ﻿namespace PdfGenerator.Data.Domain.Models;
-public class DataModel(string xml)
+public class DataModel(string json)
 {
-    public string Xml { get; set; } = xml;
+    public string Json { get; set; } = json;
 }

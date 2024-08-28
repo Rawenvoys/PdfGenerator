@@ -25,6 +25,7 @@ public static class ServiceCollectionExtensions
     private static void AddServices(this IServiceCollection services)
     {
         services.AddScoped<ITemplateService, TemplateService>();
+        services.AddScoped<IFileService, FileService>();
     }
 
     public static void AddInfrastracture(this IServiceCollection services)
