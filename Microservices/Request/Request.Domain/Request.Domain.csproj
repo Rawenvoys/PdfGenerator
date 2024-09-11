@@ -9,7 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Html.Domain\Html.Domain.csproj" />
+    <ProjectReference Include="..\..\Data\Data.Domain\Data.Domain.csproj" />
+    <ProjectReference Include="..\..\Template\Template.Domain\Template.Domain.csproj" />
   </ItemGroup>
 
 </Project>
