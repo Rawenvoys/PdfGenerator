@@ -9,15 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Select.HtmlToPdf.NetCore" Version="24.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PdfFile.Domain\PdfFile.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\..\Html\Html.Domain\Html.Domain.csproj" />
   </ItemGroup>
 
 </Project>

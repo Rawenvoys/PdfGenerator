@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dapper.Lib\Dapper.Lib.csproj" />
+    <ProjectReference Include="..\..\..\Tools\Dapper.Lib\Dapper.Lib.csproj" />
     <ProjectReference Include="..\Template.Domain\Template.Domain.csproj" />
   </ItemGroup>
 
