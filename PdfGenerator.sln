@@ -57,7 +57,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PdfGenerator.Client", "PdfG
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfGenerator.Client.Application", "Apps\PdfGenerator.Client\PdfGenerator.Client.Application\PdfGenerator.Client.Application.csproj", "{9D3D5C11-9CD1-4DBB-8D9A-D01E67FE9DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfGenerator.Client.Web", "Apps\PdfGenerator.Client\PdfGenerator.Client.Web\PdfGenerator.Client.Web.csproj", "{B17FC92C-13E2-4CC4-823D-B853D9493230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfGenerator.Client.Web", "Apps\PdfGenerator.Client\PdfGenerator.Client.Web\PdfGenerator.Client.Web.csproj", "{B17FC92C-13E2-4CC4-823D-B853D9493230}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PdfGenerator.External", "PdfGenerator.External", "{6982AD62-1F9F-43C7-A464-C2F1C5207E56}"
 EndProject
