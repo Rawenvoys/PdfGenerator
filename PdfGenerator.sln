@@ -27,11 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfGenerator.Client.Web", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PdfGenerator.External", "PdfGenerator.External", "{6982AD62-1F9F-43C7-A464-C2F1C5207E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfGenerator.External.Application", "Apps\PdfGenerator.External\PdfGenerator.External.Application\PdfGenerator.External.Application.csproj", "{A2D05178-6B5C-4A4D-BEE8-03694B86AAAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfGenerator.External.Application", "Apps\PdfGenerator.External\PdfGenerator.External.Application\PdfGenerator.External.Application.csproj", "{A2D05178-6B5C-4A4D-BEE8-03694B86AAAA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Lib", "Tools\Common.Lib\Common.Lib.csproj", "{E97ED9AE-3DD2-4669-AA7A-A2704C0626E8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Domain.Tests", "Microservices\User\User.Domain.Tests\User.Domain.Tests.csproj", "{14109834-484D-4BE3-8F53-F688A3373173}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{C51F52BD-7D50-45D8-AC52-9EF6D391F7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code.Domain", "Microservices\Code\Code.Domain\Code.Domain.csproj", "{EB271A57-B233-4EBF-AF88-3146934CC0C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{14109834-484D-4BE3-8F53-F688A3373173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14109834-484D-4BE3-8F53-F688A3373173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14109834-484D-4BE3-8F53-F688A3373173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB271A57-B233-4EBF-AF88-3146934CC0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB271A57-B233-4EBF-AF88-3146934CC0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB271A57-B233-4EBF-AF88-3146934CC0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB271A57-B233-4EBF-AF88-3146934CC0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +96,8 @@ Global
 		{A2D05178-6B5C-4A4D-BEE8-03694B86AAAA} = {6982AD62-1F9F-43C7-A464-C2F1C5207E56}
 		{E97ED9AE-3DD2-4669-AA7A-A2704C0626E8} = {C280772E-A576-4AD7-9B6D-C7E5A90C5FE8}
 		{14109834-484D-4BE3-8F53-F688A3373173} = {C16A85D9-2CB6-4F61-B4E6-AA041BBA5041}
+		{C51F52BD-7D50-45D8-AC52-9EF6D391F7C2} = {3A49C666-80F0-4C73-96A6-9843E6CD0792}
+		{EB271A57-B233-4EBF-AF88-3146934CC0C4} = {C51F52BD-7D50-45D8-AC52-9EF6D391F7C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311A46E2-E8EF-4DF1-BE5D-84959E07981C}
