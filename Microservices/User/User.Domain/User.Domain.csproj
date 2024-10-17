@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common.Lib\Common.Lib.csproj" />
+    <ProjectReference Include="..\..\..\Tools\Common.Lib\Common.Lib.csproj" />
   </ItemGroup>
 
 </Project>
